@@ -1,0 +1,43 @@
+ 
+#right-layout{
+    width:100%;
+    height: 45px;
+    color: #8582a1;
+    background-color:#1f1c3b;
+    cursor: pointer;
+      padding-left: 40px;
+      padding-right: 6px;
+      color: #ffa089; 
+      text-decoration: none;
+      
+  }
+
+  #right-layout-default{
+    width:90%;
+    border-left:3px solid  #ffa089 ;
+    background-color: #3c3258;
+    color: #f0989d;
+    transform: scale(1.1);
+    cursor: pointer;
+    overflow: hidden;
+    margin-left:12px;
+      padding-left: 30px;
+      padding-right: 0px;
+      
+  }
+  
+#right-layout:hover{
+    width:90%;
+    border-left:3px solid  #ffa089 ;
+    background-color: #3c3258;
+    color: #f0989d;
+    transform: scale(1.1);
+    cursor: pointer;
+    overflow: hidden;
+    margin-left:12px;
+      padding-left: 30px;
+      padding-right: 0px;
+      
+  }
+  
+  

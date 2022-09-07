@@ -1,0 +1,66 @@
+#buttonGlow {
+    position: relative;
+    padding: 10px 30px;
+    margin: 015px;
+    color: #21ebff;
+    text-decoration: none;
+    text-transform: uppercase;
+    Letter-spacing: 2px;
+    font-size: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0003);
+    cursor:pointer;
+}
+
+
+
+    #buttonGlow:hover {
+        background: #21ebff;
+        color: #111;
+        border-radius: 20px;
+        box-shadow: 0 0 20px #21ebff;
+        transition-delay: 0.1s;
+       
+    }
+
+    
+    #buttonGlow:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        Left: 0;
+        width: 10px;
+        height: 10px;
+        border-radius: 15px;
+        
+        transition: 0.8s;
+        transition-delay: 0.1s;
+    }
+
+    #buttonGlow:hover:before {
+        width: 99%;
+        height: 95%;
+        transition-delay: 0s;
+    }
+
+    #buttonGlow:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 10px;
+        height: 10px;
+        border-radius: 15px;
+        
+        transition: 0.8s;
+        transition-delay: 0.1s;
+    }
+
+    #buttonGlow:hover:after {
+        width: 80%;
+        height: 80%;
+        transition-delay: 0s;
+    }
+

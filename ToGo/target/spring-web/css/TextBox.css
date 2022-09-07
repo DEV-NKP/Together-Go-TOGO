@@ -1,0 +1,58 @@
+#text-box-normal {
+    height:40px;
+    background: linear-gradient(135deg, rgba(43, 33, 70, 0.4), rgba(56, 36, 95, 0.7));
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 13px;
+    border: 1px solid #ffa089;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    color:#e7e7e7;
+}
+
+    #text-box-normal:focus {
+        background: linear-gradient(135deg, rgba(166, 163, 171, 0.486), rgba(52, 23, 87, 0.7));
+        color: #e7e7e7;
+    }
+
+    .button{
+        padding-left: 20px; 
+        padding-right: 20px;
+         padding-top: 10px; 
+        padding-bottom: 10px; 
+        text-decoration: none; 
+        background: linear-gradient(135deg, rgba(255,255,255,0.3), rgba(255,255,255,0.1));
+        border-radius: 12px; 
+        font-size: 18px; 
+        color: #ee7e7e;
+    }
+    .button:hover{
+        padding-left: 15px; 
+        padding-right: 15px;
+         padding-top: 10px; 
+        padding-bottom: 10px; 
+        text-decoration: none;
+        transform: scale(1.0); 
+        background: linear-gradient(135deg, rgba(255,255,255,0.3), rgba(255,255,255,0.1));
+        border-radius: 12px ; 
+        border: 1px solid #ee7e7e;
+        font-size: 18px; 
+        color: #ee7e7e;
+
+    }
+
+
+    #text-area-normal {
+        height:35px;
+        background: linear-gradient(135deg, rgba(43, 33, 70, 0.4), rgba(56, 36, 95, 0.7));
+        backdrop-filter:blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 10px;
+        border: 1px solid #ffa089;
+        box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+        color:#e7e7e7;
+    }
+    
+        #text-area-normal:focus {
+            background: linear-gradient(135deg, rgba(166, 163, 171, 0.486), rgba(52, 23, 87, 0.7));
+            color: #e7e7e7;
+        }

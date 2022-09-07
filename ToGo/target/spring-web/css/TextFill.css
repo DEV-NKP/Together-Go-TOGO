@@ -1,0 +1,35 @@
+#title {
+    position: relative;
+    font-size: 122px;
+    color: #252839;
+   /* -webkit-text-stroke: 2px #583030;*/
+    text-transform: uppercase;
+   
+}
+
+    #title::before {
+        content: attr(data-loading-text);
+        position: absolute;
+        top: 0;
+        Left: 0;
+        width: 100%;
+        height: 100%;
+        /*color: #01fe87;*/
+        color: #f0b9bd;
+       /* -webkit-text-stroke: 0vw #583030;*/
+        border-right: 2px solid #f0b9bd;
+        overflow: hidden;
+        animation: animate 4s linear infinite;
+    }
+
+@keyframes animate 
+{
+    0%,10%,100% {
+        width: 0;
+    }
+
+    70%,90% {
+        width: 315px;
+    }
+}
+   
