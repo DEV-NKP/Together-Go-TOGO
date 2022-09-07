@@ -137,7 +137,7 @@ ToGo stands for Together Go. In the terms of submission of any task in the insti
 ![ADMIN_ADD_FACULTY!](README_IMAGE/admin_add_faculty.PNG)
 
 > Admin can view all the faculty list who are joined in the system.
-![ADMIN_VIEW_FACULTIES!](README_IMAGE/admin_view_faculties.png)
+![ADMIN_VIEW_FACULTIES!](README_IMAGE/admin_view_faculties.PNG)
 
 > Faculty can add a classroom for any course he is associated with.
 ![FACULTY_ADD_CLASSROOM!](README_IMAGE/faculty_add_classroom.PNG)
