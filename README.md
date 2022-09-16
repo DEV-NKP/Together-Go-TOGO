@@ -19,7 +19,9 @@ Thank you everyone.
 -------------------
 
  >> Any version of windows operating system.
+ 
  >> MySQL Workbench 8.0 CE
+ 
  >> IntelliJ IDEA 2022.1.1
 
 --------------------------
