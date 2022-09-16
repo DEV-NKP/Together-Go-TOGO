@@ -40,46 +40,53 @@ Thank you everyone.
 --------------
 
  >> First you have to download and install Workbench and IntelliJ software.
+ 
  >> Create the database for the ToGo. There is a sql file named "app.sql". Run the queries on the workbench.
+ 
  >> Open the ToGo folder from the IntelliJ.
+ 
  >> Press on the run button from toolbar.
+ 
  >> You will be landed on the ToGo homepage.
 
 --------------------
 | How to use "TOGO" |
 --------------------
 
- >> 1. ToGo is a higly secured web based application.
- >> 2. There are basically 3 users: Admin, Faculty and Student
- >> 3. Admin have his own Id and password.
- >> 4. Input admin ID and Password to get access to the admin section. Admin ID and Password is:
-	ID	: TO-ADMIN-GO
-	Password: ADad<2020>
- >> 5. SignUp is only available for the students. Faculty will be added by the admin.
- >> 6. For changing password, you must match the previous password first.
- >> 7. In case of forget password, you will get a mail on your valid mail address to get the OTP to verify yourself.
- >> 8. For Student ID, you have to use the pattern: XX-XXXXX-X at the time of signup.
- >> 9. For adding any Faculty, Faculty ID need to follow the pattern: XXXX-XXXX-X.
+	 1. ToGo is a higly secured web based application.
+	 2. There are basically 3 users: Admin, Faculty and Student
+	 3. Admin have his own Id and password.
+	 4. Input admin ID and Password to get access to the admin section. Admin ID and Password is:
+		ID	: TO-ADMIN-GO
+		Password: ADad<2020>
+	 5. SignUp is only available for the students. Faculty will be added by the admin.
+	 6. For changing password, you must match the previous password first.
+	 7. In case of forget password, you will get a mail on your valid mail address to get the OTP to verify yourself.
+	 8. For Student ID, you have to use the pattern: XX-XXXXX-X at the time of signup.
+	 9. For adding any Faculty, Faculty ID need to follow the pattern: XXXX-XXXX-X.
 
-	   Admin :
-		   1. Admin needs the administrator id and password to login.
-		   2. Admin can add faculty in the system.
-		   3. Available faculty's profile can be viewed by the admin.
-		   4. If the faculty designation is changed, admin can change the profile of the faculty from edit option.
-		   5. Moreover, admin has the power to remove any faculty from the system. In that case, every data associated with that faculty id will be automatically deleted
-
-	   Faculty:
-		   1. Faculty can create a classroom, modify it and also can delete the classroom.
-		   2. Assign task for that classroom. Task can be re-assigned with some changes as well.
-		   3. He/she can accept the join request came from the students.
-		   4. Faculty can see the link of the task or the text submission of a student.
-
-	   Student:
-		   1. After registration, student can view the classrooms and He/she can apply to join a classroom.
-		   2. A student can search a classroom by the name of the classroom.
-		   3. If the join request is accepted by the faculty, he/she can see the task assigned with the classroom.
-		   4. He/she can submit the task link or text of a running task.
-		   5. If any student wants to make a re-submission of any task, the task status needs to be in Running stat.
+   Admin :
+   
+	1. Admin needs the administrator id and password to login.
+	2. Admin can add faculty in the system.
+	3. Available faculty's profile can be viewed by the admin.
+	4. If the faculty designation is changed, admin can change the profile of the faculty from edit option.
+	5. Moreover, admin has the power to remove any faculty from the system. In that case, every data associated with that faculty id will be automatically deleted
+   
+   Faculty:
+   
+	1. Faculty can create a classroom, modify it and also can delete the classroom.
+	2. Assign task for that classroom. Task can be re-assigned with some changes as well.
+	3. He/she can accept the join request came from the students.
+	4. Faculty can see the link of the task or the text submission of a student.
+	
+   Student:
+    
+	1. After registration, student can view the classrooms and He/she can apply to join a classroom.
+	2. A student can search a classroom by the name of the classroom.
+	3. If the join request is accepted by the faculty, he/she can see the task assigned with the classroom.
+	4. He/she can submit the task link or text of a running task.
+	5. If any student wants to make a re-submission of any task, the task status needs to be in Running stat.
 
 ---------------------------
 | Background Informations |
